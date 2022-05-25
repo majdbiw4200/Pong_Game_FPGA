@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1636659145">
+  <File Type="PA-TCL" Name="Project10_Pong_Top.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Project10_Pong_Top_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="Project10_Pong_Top_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Project10_Pong_Top.vds"/>
+  <File Type="RDS-UTIL" Name="Project10_Pong_Top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Project10_Pong_Top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Project10_Pong_Top.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Project10_Pong_Top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Project10_Pong_Top_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/test folder/Pong_Ball_Ctrl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../test folder/Pong_Ball_Ctrl.v"/>
+        <Attr Name="ImportTime" Val="1634943191"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/test folder/Pong_Paddle_Ctrl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../test folder/Pong_Paddle_Ctrl.v"/>
+        <Attr Name="ImportTime" Val="1634943191"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/test folder/Pong_Top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../test folder/Pong_Top.v"/>
+        <Attr Name="ImportTime" Val="1634943191"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/test folder/Pong_bot.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../test folder/Pong_bot.v"/>
+        <Attr Name="ImportTime" Val="1635428312"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/test folder/Sync_To_Count.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../test folder/Sync_To_Count.v"/>
+        <Attr Name="ImportTime" Val="1634300380"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/test folder/VGA_Sync_Porch.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../test folder/VGA_Sync_Porch.v"/>
+        <Attr Name="ImportTime" Val="1634300380"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/test folder/VGA_Sync_Pulses.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../test folder/VGA_Sync_Pulses.v"/>
+        <Attr Name="ImportTime" Val="1634300380"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/test folder/clk.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../test folder/clk.v"/>
+        <Attr Name="ImportTime" Val="1630941139"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/test folder/receiver.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/test folder/Project_Pong_Top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../test folder/Project_Pong_Top.v"/>
+        <Attr Name="ImportTime" Val="1634943191"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Project10_Pong_Top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/test folder/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../test folder/Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1634943284"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
